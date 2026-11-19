@@ -10,6 +10,7 @@ import Link from "next/link";
   return (
     <main className="flex min-h-screen flex-col items-center justify-center bg-gradient-to-b from-[#FFFF00] to-[#FF0000] brightness-90 drop-shadow-[0_2px_15px_rgba(255,69,0,0.8)">
       <h1 className="text-black underline font-extrabold text-5xl text-yellow-300 [text-shadow:_0_0_10px_#f59e0b,_0_0_20px_#ef4444,_0_0_30px_#b91c1c,_0_0_40px_#7f1d1d] break-keep absolute top-0 left-125">the BEST athletes in the world</h1>
+       <Link href="/layer02">Click on me</Link>
      <div className="flex flex-row flex-wrap gap-56">{
       mockImages.map((image) => (
         <div key ={image.id} className="w-48">

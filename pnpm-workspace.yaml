@@ -1,0 +1,8 @@
+allowBuilds:
+  builds: true
+  esbuild: true
+  msgpackr-extract: true
+  unrs-resolver: true
+permissions:
+  builds:
+    skills: true
